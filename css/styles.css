@@ -29,20 +29,19 @@ font-size: 16px;
 /* line-height: 24px; */ 
 line-height: 150%;
 letter-spacing: 0.02em;
-color: #404bbf;
+color: #434455;
 }
 
-.address{
-   font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-font-style: normal ;
-
-/* line-height: 24px; */ 
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #404bbf 
+.address {
+  color: #434455; /* базовий колір */
+  text-decoration: none; /* необов'язково, щоб прибрати підкреслення */
 }
+
+.address:hover,
+.address:focus {
+  color: #404bbf; /* колір при наведенні та фокусі */
+}
+
 .sect1{
     background-color: #2e2f42;
 }
@@ -73,7 +72,7 @@ line-height: 150%;
 letter-spacing: 0.04em;
 color: #fff;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background-color: #404BBF;
+background-color: #4D5AE5;
 cursor: pointer
 }
 
