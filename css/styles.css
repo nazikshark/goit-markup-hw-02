@@ -21,6 +21,18 @@ color: #4d5ae5 ;
     color: #2e2f42;
 }
 
+.nav-link-studio{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-link-studio:hover,
+.nav-link-studio:focus {
+  color: #404bbf;      
+}
+
 .studio {
  font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -33,14 +45,18 @@ color: #434455;
 }
 
 .address {
-  color: #434455; /* базовий колір */
-  text-decoration: none; /* необов'язково, щоб прибрати підкреслення */
+  color: #434455;           
+  font-style: normal;        
+  line-height: 1.5;          
+  letter-spacing: 0.02em;    
+  text-decoration: none;     
 }
 
 .address:hover,
 .address:focus {
-  color: #404bbf; /* колір при наведенні та фокусі */
+  color: #404bbf;           
 }
+
 
 .sect1{
     background-color: #2e2f42;
