@@ -46,6 +46,10 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.address{
+    font-style: normal
+}
+
 .contact-link {
   color: #434455;           
   font-style: normal;        
