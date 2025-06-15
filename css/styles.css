@@ -58,11 +58,11 @@ color: #434455;
 }
 
 
-.sect1{
+.sect-one{
     background-color: #2e2f42;
 }
 
-.h1-sect1{
+.h-one-sectone{
     font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 56px;
@@ -105,7 +105,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.p-sect2 {
+.p-secttwo {
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -116,11 +116,11 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.sect-3{
+.sect-three{
     background-color:#F4F4FD ;
 }
 
-.h2-sect3{
+.htwo-sectthree{
 font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
@@ -133,11 +133,11 @@ color: #2e2f42;
 text-transform: capitalize
 }
 
-.li-sect3{
+.li-sectthree{
     background-color:#FFFFFF ;
 }
 
-.h3-setc3{
+.hthree-setcthree{
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
@@ -149,7 +149,7 @@ text-align: center;
 color: #2e2f42;
 }
 
-.p-sect3{
+.p-sectthree{
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -161,7 +161,7 @@ text-align: center;
 color: #434455;
 }
 
-.h2-sect4 {
+.htwo-sectfour {
 font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
@@ -174,7 +174,7 @@ color: #2e2f42;
 text-transform: capitalize
 }
 
-.h3-sect4 {
+.hthree-sectfour {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
@@ -185,7 +185,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.p-sect4 {
+.p-sectfour {
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -212,7 +212,7 @@ color: #4d5ae5;
 text-transform: uppercase
 }
 
-.webstudio-logo-span2{
+.webstudio-logo-spantwo{
     color:#f4f4fd ;
 }
 
