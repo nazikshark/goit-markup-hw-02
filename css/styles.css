@@ -75,17 +75,23 @@ color: #ffffff;
 }
 
 .button-order-service {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-
-/* line-height: 24px; */ 
-line-height: 150%;
-letter-spacing: 0.04em;
-color: #fff;
-background-color: #4D5AE5;
-cursor: pointer
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;            
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4D5AE5;      
+  cursor: pointer;
+  border: none;                   
 }
+
+
+.button-order-service:hover,
+.button-order-service:focus {
+  background-color: #404BBF;
+}
+
 
 
 .header-3-sect2 {
