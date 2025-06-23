@@ -16,12 +16,12 @@ h1,h2,h3,h4,h5,h6,p,div,a{
   border-bottom: 1px solid #e7e9fc 
 }
 
-.cotainerr{
+.cotainer{
   width: 1440px;
   display: flex;
   width: 1158px; 
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 .header-nav{
   display: flex;
@@ -68,17 +68,18 @@ flex-grow: 1;
   display: flex;
 }
 
-.nav-link-studio{
+.nav-link{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42 ;
+    padding: 24px 0;
 }
 
-.nav-link-studio:hover{
+.nav-link:hover{
      color: #404bbf;  
 }
-.nav-link-studio:focus {
+.nav-link:focus {
   color: #404bbf;      
 }
 
@@ -121,7 +122,7 @@ color: #434455;
     background-color: #2e2f42;
     width: 1440px;
     height: 600px;
-    padding: 188px 0;
+    padding: 120px 0;
 }
 
 .hero-banner-title{
@@ -210,7 +211,7 @@ color: #434455;
     padding: 120px 0;
 }
 
-.sectthree-title{
+.team-title{
 font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
@@ -224,7 +225,7 @@ text-transform: capitalize;
 padding-left: 639px;
 padding-right: 639px;
 padding-top: 120px;
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 
 .team-list{
@@ -306,7 +307,7 @@ padding-right: 611px;
   row-gap: 48px;
 }
 
-.li-sectfour{
+.li-portfolio{
   width: calc((100% - 48px) / 3);
 }
 
