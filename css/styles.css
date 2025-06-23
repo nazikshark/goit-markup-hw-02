@@ -1,8 +1,31 @@
+*{
+  margin: 0;
+}
 .body{
 color: #434455 ;
 font-family: "Roboto", sans-serif;
 background-color:#FFFFFF ;
+}
 
+h1,h2,h3,h4,h5,h6,p,div,a{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.header{
+  border-bottom: 1px solid #e7e9fc 
+}
+
+.cotainer{
+  width: 1440px;
+}
+.header-nav{
+  display: flex;
+  align-items: center;
+}
+
+.header-nav ul{
+  display: flex;
 }
 
 .webstudio-logo{
@@ -15,10 +38,24 @@ line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5 ;
+margin-top: 24px;
+margin-bottom: 24px;
+margin-left: 156px;
+margin-right: 76px;
+flex-grow: 1;
 }
 
 .webstudio-logo-span {
     color: #2e2f42;
+}
+
+.header-nav-menu{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 76px;
+  padding-right: 332px;
+  gap: 40px;
+  margin-right: 332px;
 }
 
 .nav-link-studio{
@@ -50,6 +87,10 @@ color: #434455;
     font-style: normal
 }
 
+.address-list{
+  gap: 40px;
+}
+
 .contact-link {
   color: #434455;           
   font-style: normal;        
@@ -65,12 +106,17 @@ color: #434455;
   color: #404bbf;           
 }
 
-
-.sect-one{
-    background-color: #2e2f42;
+.container-two{
+  margin: 0 auto;
 }
 
-.h-one-sectone{
+.hero-banner{
+    background-color: #2e2f42;
+    width: 1440px;
+    height: 600px;
+}
+
+.hero-banner-title{
     font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 56px;
@@ -80,6 +126,12 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
+padding-top: 164px;
+padding-left: 472px;
+padding-right: 472px;
+max-width: 496px;
+width: 496px;
+margin-bottom: 48px;
 }
 
 .button-order-service {
@@ -91,7 +143,12 @@ color: #ffffff;
   color: #fff;
   background-color: #4D5AE5;      
   cursor: pointer;
-  border: none;                   
+  border: none;  
+  border-radius: 4px;
+ padding: 16px 32px;
+ width: 169px;
+ height: 56px;
+ margin-left: 636px;         
 }
 
 
@@ -100,9 +157,16 @@ color: #ffffff;
   background-color: #404BBF;
 }
 
+.secttwo-list-item {
+  padding-top: 144px;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-bottom: 120px;
+  display: flex;
+  gap: 24px;
+}
 
-
-.hthree-secttwo {
+.hthree-secttwo{
     font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
@@ -111,7 +175,10 @@ font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding-bottom: 8px;
 }
+
+
 
 .p-secttwo {
 font-family: "Roboto", sans-serif;
@@ -125,10 +192,10 @@ color: #434455;
 }
 
 .sect-three{
-    background-color:#F4F4FD ;
+    background-color:#F4F4FD;
 }
 
-.htwo-sectthree{
+.sectthree-title{
 font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
@@ -138,11 +205,22 @@ line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-text-transform: capitalize
+text-transform: capitalize;
+padding-left: 639px;
+padding-right: 639px;
+padding-top: 120px;
+padding-bottom: 72px;
 }
 
-.li-sectthree{
+.team-list{
+  display: flex;
+  gap: 24px;
+}
+
+.item-sectthree{
     background-color:#FFFFFF ;
+    padding-top: 232px;
+    padding-bottom: 32px;
 }
 
 .hthree-setcthree{
@@ -155,6 +233,8 @@ line-height: 120%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+padding-top: 32px;
+padding-bottom: 8px;
 }
 
 .p-sectthree{
@@ -167,9 +247,17 @@ line-height: 150%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+padding-bottom: 152px;
 }
 
-.htwo-sectfour {
+.container-portfolio{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 156px;
+  padding-right: 156px;
+}
+
+.portfolio-title {
 font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
@@ -179,7 +267,16 @@ line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-text-transform: capitalize
+text-transform: capitalize;
+padding-top: 120px;
+padding-bottom: 72px;
+padding-left: 611px;
+padding-right: 611px;
+}
+
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hthree-sectfour {
@@ -191,6 +288,9 @@ font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding-top: 32px;
+padding-bottom: 8px;
+padding-left: 16px;
 }
 
 .p-sectfour {
@@ -202,6 +302,8 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
+padding-bottom: 32px;
+padding-left: 16px;
 }
 
 .footer{
@@ -217,7 +319,10 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: #4d5ae5;
-text-transform: uppercase
+text-transform: uppercase;
+padding-top: 100px;
+padding-left: 156px;
+padding-bottom: 16px;
 }
 
 .webstudio-logo-spantwo{
@@ -233,4 +338,6 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+padding-left: 156px;
+padding-bottom: 100px;
 }
