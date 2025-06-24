@@ -19,7 +19,7 @@ ul,ol{
 }
 
 .container{
-  width: 1158px; 
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -43,11 +43,6 @@ background-color:#FFFFFF ;
   border-bottom: 1px solid #e7e9fc 
 }
 
-.containerr{
-  width: 1440px;
-  display: flex;
-  align-items: center;
-}
 .header-nav{
   display: flex;
   align-items: center;
