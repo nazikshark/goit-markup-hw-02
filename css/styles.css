@@ -22,7 +22,6 @@ ul,ol{
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
 }
 
 img {
@@ -42,6 +41,10 @@ background-color:#FFFFFF ;
 
 .header{
   border-bottom: 1px solid #e7e9fc 
+}
+
+.containerr{
+  display: flex;
 }
 
 .header-nav{
