@@ -232,13 +232,19 @@ margin: 0 auto;
 
 .image-div{
   border:#F4F4FD ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
-.svg-secttwo{
-  padding: 24px 100px;
-  margin-bottom: 8px;
-  border: 1px solid #8e8f99;
-  background-color: #F4F4FD;
+.svg-studio{
+  width: 64px;
+  height: 64px;
 }
 
 
