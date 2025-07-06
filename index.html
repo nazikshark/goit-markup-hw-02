@@ -462,12 +462,12 @@
             <div class="input">
               <input
                 type="text"
-                name="name"
+                name="user-name"
                 id="user-name"
                 placeholder="Your name"
                 class="pop-up-field-input"
               />
-              <svg width="18" height="24px" class="svg-input">
+              <svg width="18" height="24" class="svg-input">
                 <use href="./images/icons.svg#icon-chilavek"></use>
               </svg>
             </div>
@@ -483,7 +483,7 @@
                 placeholder="Your name"
                 class="pop-up-field-input"
               />
-              <svg width="18" height="24px" class="svg-input">
+              <svg width="18" height="24" class="svg-input">
                 <use href="./images/icons.svg#icon-telefon"></use>
               </svg>
             </div>
@@ -498,7 +498,7 @@
                 placeholder="Your name"
                 class="pop-up-field-input"
               />
-              <svg width="18" height="24px" class="svg-input">
+              <svg width="18" height="24" class="svg-input">
                 <use href="./images/icons.svg#icon-poshta"></use>
               </svg>
             </div>
@@ -506,20 +506,20 @@
           <div class="comment-div">
             <label for="user-comment" class="label">Comment</label>
             <textarea
-              name=""
+              name="user-comment"
               id="user-comment"
               placeholder="Text input"
               class="textarea"
             ></textarea>
           </div>
           <div class="checkbox">
+            <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="input-checkbox visually-hidden"/>
             <label for="user-privacy" class="label"
               >I accept the terms and conditions of the <a href="nike.com" class="privacy-policy">Privacy Policy</a>
-              <span class="policy-svg"><svg>
+              <span class="policy-svg"><svg width="10" height="8" class="svg-checkbox">
                 <use href="./images/icons.svg#icon-Checkbox"></use>
               </svg></span>
             </label>
-            <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="input-checkbox visually-hidden"/>
           </div>
 
           <button type="submit" class="submit">SEND</button>
