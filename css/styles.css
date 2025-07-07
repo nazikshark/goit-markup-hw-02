@@ -877,6 +877,8 @@ color: #8e8f99;
   background-color: var(--active-color);
   fill: var(--icon-color);
   border: none;
+  background-color: #404bbf;
+  fill: #F4F4FD;
 }
 
 .submit{
