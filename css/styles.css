@@ -640,6 +640,7 @@ margin-bottom: 16px;
   justify-content: center;
   align-items : center;
   display: flex ;
+  display: none;
 }
 
 
@@ -906,4 +907,31 @@ padding: 16px 32px;
 width: 169px;
 height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width:320px){
+  .container{
+    width: 288px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+  }
+  .secttwo-list-item{
+    flex-wrap: wrap;
+    gap: 72px;
+    padding: 20px;
+    padding-right: 28px;
+  }
+  .item-list{
+    width: 288px;
+  }
+  .image-div{
+    display: none;
+  } 
+  .team-list{
+    flex-wrap: wrap;
+  }
+  .portfolio-list{
+    flex-wrap: wrap;
+  }
 }
