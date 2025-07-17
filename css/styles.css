@@ -73,6 +73,13 @@ flex-grow: 1;
     color: #2e2f42;
     text-decoration: underline;
 }
+.mob-menu-open-btn{
+  border: none;
+fill: #2f2f37;
+stroke-width: 1px;
+stroke: #2e2f42;
+background-color: #FFFFFF;
+}
 
 .mob-menu{
   position: fixed;
@@ -82,13 +89,14 @@ flex-grow: 1;
   width: 100%;
   height: 100%;
   z-index: 500;
+  display: none;     
 }
 
 .mob-menu a {
   color: #2e2f42;;
 }
 
-.mob-menu-close-btn{
+/* .mob-menu-close-btn{
   border-radius: 100%;
 fill: #e7e9fc;
 stroke-width: 1px;
@@ -97,7 +105,7 @@ stroke: #2e2f42;
   margin-left: auto;
   margin-right: 24px;
   margin-top: 24px;
-}
+} */
 
 .nav{
   display: flex;
@@ -270,8 +278,6 @@ margin: 0 auto;
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
-}
-.svg-studio{
   display: none;
 }
 
@@ -505,11 +511,14 @@ padding: 100px 0;
 .footer-div{
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
+  gap: 72px;
 }
 
 .idk-div{
-  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-logo{
@@ -540,7 +549,12 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-max-width: 264px;
+width: 288px;
+}
+.social-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .p-social-media{
@@ -599,6 +613,7 @@ margin-bottom: 16px;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  align-items: center;
 }
 
 .subscribe-label {
@@ -624,7 +639,7 @@ margin-bottom: 16px;
 }
 
 .subscribe-button {
-  min-width: 165px;
+  width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -943,7 +958,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   .container{
   width: 736px;
   padding: 0;
-  margin: 16px;
+  margin: 0 auto;
 }
 .tablet-desktop-header{
   display: flex;
@@ -1000,6 +1015,7 @@ flex-direction: column;
 margin-left: 120px
 }
 
+
 .mob-menu-open-btn{
   display: none;
 }
@@ -1034,41 +1050,44 @@ margin-bottom: 36px;
     width: 356px;
   }
   .team-list{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 64px 24px;
-    margin-left: 16px;
-    margin-right: 16px;
+    justify-content: center;
   }
   .portfolio-list{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 72px 24px;
-    margin-left: 16px;
-    margin-right: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     gap: 72px 24px;
   }
   .footer-div {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 колонки */
-  gap: 72px 24px; /* вертикальний 72px, горизонтальний 24px */
-  padding: 96px 16px; /* 96px зверху/знизу, 16px з боків */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 72px 24px; 
+  padding: 96px 16px;
   list-style: none;
   margin-left: 108px;
   padding: 0;
   gap: 24px;
 }
-
-.footer-div:nth-child(3) {
-  grid-column: 1 / 2; /* третя картка займає тільки ліву колонку */
-}
-
 .idk-div{
   margin: 0;
   width: 264px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
+.social-footer{
+  align-items: flex-start;
+}
+
 .subscribe-form{
   display: flex;
   flex-direction: row;
+  gap: 24px;
 }
 .image-div{
   display: none;
@@ -1106,8 +1125,10 @@ margin-left: 332px;
   margin-left: 156px;
 }
 .portfolio-list{
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
+  width: 736px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 72px 24px;
     margin-left: 16px;
     margin-right: 16px;
