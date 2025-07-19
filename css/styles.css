@@ -1097,11 +1097,10 @@ grid-template-columns: repeat(2, 1fr);
   flex-direction: row;
   flex-wrap: wrap;
   gap: 72px 24px; 
-  padding: 96px 16px;
   list-style: none;
   margin-left: 108px;
   padding: 0;
-  gap: 24px;
+  width: 496px;
 }
 .idk-div{
   margin: 0;
@@ -1223,6 +1222,8 @@ color: #2e2f42;
 .footer-div{
   display: flex;
   flex-direction: row;
+  gap: 0;
+  width: 1125px;
 }
 .idk-div{
   margin-right: 120px;
