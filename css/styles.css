@@ -189,7 +189,6 @@ color: #2e2f42;
 }
 
 .address-link {
-  width: 193px;
   height: 24px;
   color: #434455;           
   font-style: normal;        
@@ -1235,11 +1234,15 @@ color: #2e2f42;
     /* flex-wrap: nowrap; */
     gap: 24px;
 }
+.li-portfolio{
+  width: calc((100% - 72px) / 3);
+}
 .footer-div{
   display: flex;
   flex-direction: row;
   gap: 0;
   width: 1125px;
+  margin-left: auto;
 }
 .idk-div{
   margin-right: 120px;
