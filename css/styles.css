@@ -1083,6 +1083,9 @@ background-color: #404bbf;
 .mob-menu-open-btn{
   display: none;
 }
+.svg-menu-btn{
+  fill: #2f2f37;
+}
 .mob-menu{
     display: none;
   }
