@@ -85,6 +85,9 @@ stroke: #2e2f42;
 background-color: #FFFFFF;
 padding: 0;
 }
+.svg-menu-btn{
+  fill: #2f2f37;
+}
 
 .mob-menu{
       position: fixed;
@@ -1082,9 +1085,6 @@ background-color: #404bbf;
 }
 .mob-menu-open-btn{
   display: none;
-}
-.svg-menu-btn{
-  fill: #2f2f37;
 }
 .mob-menu{
     display: none;
